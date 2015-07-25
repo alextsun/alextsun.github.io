@@ -9,14 +9,18 @@ $(document).ready(function() {
         loadContent(this.id);
     });
 
-    $("#cse, #math, #stat").click(function() {
-        $(".accordion").accordion();
-    });
+    /*
+    $("#coursework > ul > li").click(function() {
+        $( ".accordion" ).accordion({
+            collapsible: true
+        });
+        console.log("setting accordion");
+    });*/
 });
 
 // load content for tab and change highlights
 function loadContent(id) {
-    if (id !== "") {
+    if (id !== "" && id !== "coursework") {
         var file = id + ".html";
         $.ajax({
             url: file,
@@ -25,6 +29,13 @@ function loadContent(id) {
                 $("#content").html(result);
             }
         });
+        if (id == 'cse' || id == 'math' || id == 'stat') {
+            $( ".accordion" ).accordion({
+                active: false,
+                collapsible: true
+            });
+            console.log("set accordion");
+        }
         swapSelectionTo(id);
     }
 }
