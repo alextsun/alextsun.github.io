@@ -6,10 +6,12 @@ $(document).ready(function() {
 
     // when click on tab, load content
     $("#cssmenu li").click(function() {
-       loadContent(this.id);
+        loadContent(this.id);
     });
 
-    $( ".accordion" ).accordion();
+    $("#cse, #math, #stat").click(function() {
+        $(".accordion").accordion();
+    });
 });
 
 // load content for tab and change highlights
