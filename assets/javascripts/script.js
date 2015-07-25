@@ -21,5 +21,14 @@ function loadContent(id) {
                 $("#content").html(result);
             }
         });
+        swapSelectionTo(id);
     }
+}
+
+function swapSelectionTo(id) {
+    $('#cssmenulist').children("li").each(function () {
+        console.log($(this) + "");
+        $(this).removeClass("active");
+    });
+    $("#" + id).addClass("active");
 }
