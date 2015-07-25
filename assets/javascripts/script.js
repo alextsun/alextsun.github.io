@@ -8,6 +8,8 @@ $(document).ready(function() {
     $("#cssmenu li").click(function() {
        loadContent(this.id);
     });
+
+    $( ".accordion" ).accordion();
 });
 
 // load content for tab and change highlights
