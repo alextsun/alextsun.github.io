@@ -4,8 +4,9 @@
     margin: 0;
     font-family: 'Roboto Condensed';
     line-height: 1;
-    width: 250px;
+    width: 25%;
     float: left;
+    display: inline-block;
 }
 .align-right {
     float: right;

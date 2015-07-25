@@ -9,13 +9,9 @@ $(document).ready(function() {
         loadContent(this.id);
     });
 
-    /*
-    $("#coursework > ul > li").click(function() {
-        $( ".accordion" ).accordion({
-            collapsible: true
-        });
-        console.log("setting accordion");
-    });*/
+    $("#accordion").accordion({
+        collapsible: true
+    });
 });
 
 // load content for tab and change highlights
@@ -27,15 +23,15 @@ function loadContent(id) {
             type: "GET",
             success: function(result) {
                 $("#content").html(result);
+                if (id == 'cse' || id == 'math' || id == 'stat') {
+                    $( ".accordion" ).accordion({
+                        active: false,
+                        collapsible: true
+                    });
+                }
             }
         });
-        if (id == 'cse' || id == 'math' || id == 'stat') {
-            $( ".accordion" ).accordion({
-                active: false,
-                collapsible: true
-            });
-            console.log("set accordion");
-        }
+
         swapSelectionTo(id);
     }
 }
