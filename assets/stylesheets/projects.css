@@ -1,0 +1,13 @@
+#project-h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.project-image-rr, .project-image-app {
+    height: 115px;
+    width: 115px;
+}
+
+#project-list div {
+    display: inline;
+}
