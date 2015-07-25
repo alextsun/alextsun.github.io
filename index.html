@@ -4,10 +4,12 @@
     <head>
         <meta charset='utf-8'>
         <link rel='stylesheet' href='assets/stylesheets/left-nav.css'>
+        <link rel='stylesheet' href='assets/stylesheets/content.css'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src='assets/javascripts/left-nav.js'></script>
+        <script src='assets/javascripts/script.js'></script>
         <title>Alex Tsun</title>
     </head>
 
@@ -15,20 +17,26 @@
         <div id="topbanner">
             <img src="assets/images/name-banner.png"></img>
         </div>
-        <div id='cssmenu'>
-            <ul>
-                <li class='active'><a href='index.html'><span>Home</span></a></li>
-                <li><a href='about.html'><span>About</span></a></li>
-                <li><a href='projects.html'><span>Projects</span></a></li>
-                <li class='has-sub'><a href='#'><span>Coursework</span></a>
-                    <ul>
-                        <li><a href='cse.html'><span>Computer Science</span></a></li>
-                        <li><a href='stat.html'><span>Statistics</span></a></li>
-                        <li><a href='math.html'><span>Mathematics</span></a></li>
-                    </ul>
-                </li>
-                <li class='last'><a href='contact.html'><span>Contact</span></a></li>
-            </ul>
+
+        <div id="mainpage">
+            <div id='cssmenu'>
+                <ul>
+                    <li class='active'><a href='#'><span>Home</span></a></li>
+                    <li id="about"><a href='#'><span>About</span></a></li>
+                    <li id="projects"><a href='#'><span>Projects</span></a></li>
+                    <li class='has-sub'><a href='#'><span>Coursework</span></a>
+                        <ul>
+                            <li id="cse"><a href='#'><span>Computer Science</span></a></li>
+                            <li id="stat"><a href='#'><span>Statistics</span></a></li>
+                            <li id="math"><a href='#'><span>Mathematics</span></a></li>
+                        </ul>
+                    </li>
+                    <li id="contact" class='last'><a href='#'><span>Contact</span></a></li>
+                </ul>
+            </div>
+            <div id="content">
+
+            </div>
         </div>
     </body>
 </html>
