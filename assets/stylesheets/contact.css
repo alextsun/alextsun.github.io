@@ -1,0 +1,13 @@
+#contact-info-h1 {
+ 	font-size: 200%;
+ 	text-align: center;
+ }
+
+#contact-info-list > li > img {
+ 	height: 3%;
+ 	width: 3%;
+ }
+
+#contact-info-list > li {
+ 	font-size: 150%;
+ }
