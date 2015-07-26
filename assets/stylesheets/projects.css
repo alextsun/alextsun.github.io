@@ -5,8 +5,8 @@
 
 .project-element {
     display: inline-block;
-    width: 150px;
-    height: 200px;
+    width: 18%;
+    height: 13%;
     vertical-align: top;
     text-align:center;
     margin: 30px;
@@ -14,9 +14,11 @@
 
 .name {
     display: inline;
+    font-size: 140%;
 }
+
 .project-element img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     display: block;
 }
