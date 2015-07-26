@@ -121,14 +121,24 @@
 #cssmenu ul > li.open::after {
     border-top-color: #ffffff;
 }
+
+/*next 3 are problem area*/
 #cssmenu ul > li.has-sub.open > a::after {
     opacity: 1;
-    bottom: -13px;
+    bottom: -20%;
+    margin: 0 auto;
+    display: block;
 }
 #cssmenu ul > li.has-sub.open > a::before {
     opacity: 1;
-    bottom: -12px;
+    bottom: -20%;
+    margin: 0 auto;
+    display: block;
 }
+#cssmenu ul > li.has-sub.open {
+    text-align: center;
+}
+
 #cssmenu ul ul {
     display: none;
 }

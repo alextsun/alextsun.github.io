@@ -31,7 +31,6 @@ function loadContent(id) {
                 }
             }
         });
-
         swapSelectionTo(id);
     }
 }
@@ -41,5 +40,6 @@ function swapSelectionTo(id) {
     $('#cssmenulist').children().each(function () {
         $(this).removeClass("active");
     });
+
     $("#" + id).addClass("active");
 }
