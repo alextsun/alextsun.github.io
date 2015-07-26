@@ -3,11 +3,19 @@
     text-align: center;
 }
 
-.project-image-rr, .project-image-app {
-    height: 115px;
-    width: 115px;
+.project-element {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    vertical-align: top;
+    text-align:center;
 }
 
-#project-list div {
+.name {
     display: inline;
+}
+.project-element img {
+    width: 100%;
+    height: 200px;
+    display: block;
 }
