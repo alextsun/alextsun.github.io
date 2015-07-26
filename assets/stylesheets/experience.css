@@ -1,0 +1,31 @@
+#experience-h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.experience-element {
+    display: inline-block;
+    width: 18%;
+    height: 13%;
+    vertical-align: top;
+    text-align: center;
+    margin: 30px;
+}
+
+.name {
+    -webkit-line-clamp: 4; /* number of lines to show */
+    display: inline;
+    font-size: 140%;
+}
+
+.location {
+    -webkit-line-clamp: 2; /* number of lines to show */
+    font-size: 90%;
+    color: red;
+}
+
+.experience-element img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
