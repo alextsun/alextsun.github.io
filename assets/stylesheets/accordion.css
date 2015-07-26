@@ -5,3 +5,18 @@
     margin: 0 auto;
     position: relative;
 }
+
+#cse > a > span, #stat > a > span, #math > a > span {
+    color: black;
+    text-shadow: none;
+    -webkit-text-stroke: 0 white;
+}
+
+.accordion > h3, .accordion > div > p {
+    text-shadow: none;
+    -webkit-text-stroke: 0 white;
+}
+
+.accordion > div > p {
+    color: black;
+}
