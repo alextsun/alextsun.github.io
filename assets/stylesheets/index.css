@@ -1,4 +1,4 @@
-#name-banner {
+#top-banner {
     top: 0;
     left: 0;
     right: 0;
@@ -6,7 +6,7 @@
     margin: auto;
     min-width: 100%;
     min-height: 100%;
-    background-color: #2f3030;
+    background-color: #2f3030 !important;
 }
 
 #name {
