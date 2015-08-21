@@ -13,7 +13,8 @@ body {
 }
 
 #main-page {
-    background-image: url("./../images/background-1.png");
+    /*background-image: url("./../images/background-1.png");*/
+    background-color: #ddd;
 }
 
 p, h1, h2, h3, span, div {
