@@ -11,6 +11,8 @@
 #name {
     font-family: "Segoe ui", "Century Gothic", sans-serif;
     font-size: 70px;
+    color: white;
+    margin-left: 12px;
 }
 
 body {
