@@ -6,6 +6,7 @@
 #contact-info-list > li > img {
  	height: 3%;
  	width: 3%;
+	margin-right: 10px;
  }
 
 #contact-info-list > li {
