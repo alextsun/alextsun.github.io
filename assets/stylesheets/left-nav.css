@@ -192,3 +192,7 @@
 #cssmenu ul ul > li.open::after {
     border-top-color: #666666;
 }
+
+#cssmenulist li span{
+    color: white;
+}
