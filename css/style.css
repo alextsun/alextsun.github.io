@@ -1040,3 +1040,6 @@ body {
 #about_header {
 	color: white;
 }
+a:link, a:visited {
+    color: white;
+};
