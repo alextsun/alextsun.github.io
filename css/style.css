@@ -1043,3 +1043,6 @@ body {
 a:link, a:visited {
     color: white;
 };
+a:hover {
+	color: #f0f0f0 !IMPORTANT;
+}
